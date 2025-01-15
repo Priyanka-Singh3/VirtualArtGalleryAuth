@@ -16,7 +16,7 @@ const Header = () => {
       <h1 className="text-[64px] mb-5">
         <h1 className="text-[44px]  font-pacifico">Welcome to</h1>
         <Typewriter
-          words={['Virtual Art Gallary']}
+          words={['Virtual Art Gallery']}
           loop={true}
           cursor
           cursorStyle="|"
@@ -25,7 +25,7 @@ const Header = () => {
           delaySpeed={2000}
         />
       </h1>
-      <button onClick={() => navigate("/signup")} className="px-6 py-3 bg-[#656d4a] rounded-full shadow-lg hover:bg-[#718355]">
+      <button onClick={() => navigate("/signup")} className="px-6 py-3 bg-[#656d4a] rounded-full shadow-lg hover:bg-[#718355] ">
         Sign Up
       </button>
       </div>

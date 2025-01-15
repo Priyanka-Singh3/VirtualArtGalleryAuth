@@ -1,12 +1,14 @@
-import logo_name from './logo_name.png'
-import arrow_icon from './arrow_icon.png'
-import gallary from './harvard.png'
-import bg from './bg3.jpg'
 
+import arrow_icon from './arrow_icon.png'
+import bg from './bg4.jpg'
+import person_icon from './profile.png'
+import mail_icon from './mail.png'
+import lock_icon from './padlock.png'
 
 export const assets = {
-    logo_name,
     arrow_icon,
-    gallary,
-    bg
+    bg,
+    person_icon,
+    mail_icon,
+    lock_icon
 }
